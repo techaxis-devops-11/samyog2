@@ -18,7 +18,7 @@ pipeline {
 
             steps { 
 
-                git 'git@github.com:techaxis-devops-11/samyog.git' 
+                git 'git@github.com:techaxis-devops-11/samyog2.git' 
 
             }
 
