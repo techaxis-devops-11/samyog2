@@ -69,7 +69,7 @@ pipeline {
        stage('Run Docker container on remote hosts') {
 
              steps {
-             sh 'docker -H ssh://ubuntu@54.90.247.48 run -d -p 4000:80 --name=helloworldg4 techaxis/php'
+             sh 'docker -H ssh://ubuntu@54.90.247.48 run -d -p 4002:80 --name=helloworldg4 techaxis/php:$BUILD_NUMBER'
             }
            
         }
